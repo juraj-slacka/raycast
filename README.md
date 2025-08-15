@@ -1,3 +1,6 @@
+Raycasting engine tech demo
+----------------------------
+
 This is a simple raycast engine implementation in C using SDL2 library.
 The engine is just a proof of concept, created by my curiosity for raycasting technology and it is not intended to be anything more.
 The code is well commented, so maybe it will help someone else with similar interests.
@@ -13,3 +16,4 @@ Key features:
 3. Wall and not walk-thru sprites collision detection.
 4. Sprites with transparent pixels (magenta color).
 5. Simple hud (not functional) with weapon and crosshair.
+
