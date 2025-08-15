@@ -9,6 +9,8 @@ All the assets like sprites and textures are stored in static arrays in header f
 To create those header files a simple converter was created in texture_converter directory. This converter converts a GIMP exported .ppm file to .h header file with static uint32 pixel array
 Most of the textures and sprites were extracted from shareware version of Wolfenstein 3D. All credit goes to ID software.
 
+<img width="1143" height="562" alt="Image" src="https://github.com/user-attachments/assets/0a710826-54e4-4d7c-9bb3-94abcfb97e6a" />
+
 Key features:
 ----------------------
 1. Textured walls, floors and ceilings.
@@ -16,4 +18,5 @@ Key features:
 3. Wall and not walk-thru sprites collision detection.
 4. Sprites with transparent pixels (magenta color).
 5. Simple hud (not functional) with weapon and crosshair.
+6. Level map with player position and visible rays.
 
